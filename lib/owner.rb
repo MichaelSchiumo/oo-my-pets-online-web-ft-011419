@@ -76,7 +76,7 @@ class Owner
     "I have #{pets[:fishes].count} fish, #{pets[:dogs].count} dog(s), and #{pets[:cats].count} cat(s)."
   end  
   
-  def reset_all
+  def self.reset_all
     @@all.clear
   end  
  
