@@ -22,7 +22,6 @@ class Owner
   
   def self.count 
     @@count
-    @@count.clear
   end  
 
   def self.all 
