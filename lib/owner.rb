@@ -1,7 +1,9 @@
 require 'pry'
 
 class Owner
-  
+
+OWNERS = []
+
   attr_accessor :name, :pets
   
   attr_reader :species
@@ -77,7 +79,7 @@ class Owner
   end  
   
   def self.reset_all
-    @@all.clear
+    OWNERS.clear
   end
  
 end
