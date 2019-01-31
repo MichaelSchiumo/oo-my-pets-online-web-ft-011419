@@ -79,7 +79,7 @@ OWNERS = []
   end  
   
   def self.reset_all
-    OWNERS.clear
+    Owner.clear
   end
  
 end
